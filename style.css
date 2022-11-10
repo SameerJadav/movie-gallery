@@ -10,39 +10,20 @@ RESET
   box-sizing: border-box;
 }
 
-/* 
-.....................................
-VARIABLES
-.....................................
-*/
-
-:root {
-  --sec-1: #deefe7;
-  --sec-2: #b8d3d9;
-  --sec-3: #ff816d;
-  --sec-4: #c7ffed;
-  --sec-5: #00ccbf;
-  --sec-6: #dafdba;
-  --sec-7: #d9bacb;
-  --sec-8: #72f2eb;
-  --sec-9: #d8ffdb;
-  --sec-10: #594c53;
-}
-
 body {
   text-align: center;
-  font-size: 2rem;
-  color: black;
 }
 
 img {
   max-width: 100%;
   height: 100%;
-  /* object-fit: contain; */
+  object-fit: cover;
 }
 
 .grid_wrapper {
-  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  gap: none;
 }
 
 /* 
