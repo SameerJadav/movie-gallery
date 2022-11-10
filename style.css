@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+
 /* 
 .....................................
 RESET
@@ -10,8 +12,28 @@ RESET
   box-sizing: border-box;
 }
 
+:root {
+  --border: 2px solid #000;
+  --text-color: #000;
+  --background-color: #fff;
+}
+
 body {
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
+  background-color: #000;
+}
+
+header {
+  background-color: var(--background-color);
+  border: var(--border);
+}
+
+header h1 {
+  font-weight: 700;
+  color: var(--text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 img {
@@ -52,42 +74,52 @@ TABLET
 
   .sec-1 {
     grid-area: sec-1;
+    border: var(--border);
   }
 
   .sec-2 {
     grid-area: sec-2;
+    border: var(--border);
   }
 
   .sec-3 {
     grid-area: sec-3;
+    border: var(--border);
   }
 
   .sec-4 {
     grid-area: sec-4;
+    border: var(--border);
   }
 
   .sec-5 {
     grid-area: sec-5;
+    border: var(--border);
   }
 
   .sec-6 {
     grid-area: sec-6;
+    border: var(--border);
   }
 
   .sec-7 {
     grid-area: sec-7;
+    border: var(--border);
   }
 
   .sec-8 {
     grid-area: sec-8;
+    border: var(--border);
   }
 
   .sec-9 {
     grid-area: sec-9;
+    border: var(--border);
   }
 
   .sec-10 {
     grid-area: sec-10;
+    border: var(--border);
   }
 }
 
@@ -108,5 +140,55 @@ DESKTOP
       "sec-3 sec-4 sec-4 sec-5"
       "sec-6 sec-7 sec-7 sec-5"
       "sec-8 sec-9 sec-10 sec-10";
+  }
+
+  .sec-1 {
+    grid-area: sec-1;
+    border: var(--border);
+  }
+
+  .sec-2 {
+    grid-area: sec-2;
+    border: var(--border);
+  }
+
+  .sec-3 {
+    grid-area: sec-3;
+    border: var(--border);
+  }
+
+  .sec-4 {
+    grid-area: sec-4;
+    border: var(--border);
+  }
+
+  .sec-5 {
+    grid-area: sec-5;
+    border: var(--border);
+  }
+
+  .sec-6 {
+    grid-area: sec-6;
+    border: var(--border);
+  }
+
+  .sec-7 {
+    grid-area: sec-7;
+    border: var(--border);
+  }
+
+  .sec-8 {
+    grid-area: sec-8;
+    border: var(--border);
+  }
+
+  .sec-9 {
+    grid-area: sec-9;
+    border: var(--border);
+  }
+
+  .sec-10 {
+    grid-area: sec-10;
+    border: var(--border);
   }
 }
